@@ -21,7 +21,7 @@ namespace RestartMe
 
                 // this allow to filter modems, serial, etc.
                 // I use 10000000 as a minimum speed for most cases
-                if (ni.Speed < 1000000000)
+                if (ni.Speed < 100000000)
                     continue;
 
                 // discard virtual cards (virtual box, virtual pc, etc.)
